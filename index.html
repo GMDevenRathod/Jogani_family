@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SelfieMaker</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="faviocn2.ico">
+  
+
+  <!-- For responsive -->
+   <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+   <!-- Additional CSS Files -->
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
+   <link rel="stylesheet" href="assets/css/templatemo-tale-seo-agency.css">
+   <link rel="stylesheet" href="assets/css/owl.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+
+
+
+</head>
+<body>
+  <app-root></app-root>
+  
+  <!-- <script> 
+    $(document).ready( function(){
+      $('.frm').hide();
+      console.log('hello');
+    });
+    </script>
+
+<script>
+  $(document).ready(function(){
+    
+    $('.btn').click(function(){
+      console.log('hello2');
+      $('.frm').show();
+    });
+  });
+</script>  -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var openBtn = document.getElementById('open-popup-btn');
+    var closeBtn = document.getElementById('close-popup-btn');
+    var popup = document.getElementById('popup');
+
+    openBtn.addEventListener('click', function() {
+      popup.style.display = 'block';
+    });
+
+    closeBtn.addEventListener('click', function() {
+      popup.style.display = 'none';
+    });
+  });
+</script>
+
+<!-- script for responsive -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="assets/js/isotope.min.js"></script>
+<script src="assets/js/owl-carousel.js"></script>
+<script src="assets/js/tabs.js"></script>
+<script src="assets/js/popup.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
